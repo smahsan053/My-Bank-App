@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import { initialize, openAccount, logAccount, login, transaction, debit, credit, continueApp } from "./userinput.js";
 import { Customer } from "./customer.js";
 import { BankAccount } from "./bankAccount.js";
